@@ -1,0 +1,78 @@
+.card-sec {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+}
+.button-sec button {
+    color: #1890ff;
+    border: 1px solid #1890ff;
+    background: white;
+    outline: none;
+    padding: 10px 40px;
+    margin-left: 25px;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+}
+.button-section {
+    margin-top: 20px;
+}
+.button-section button {
+    padding: 5px 20px;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.submit {
+    margin: 0 !important;
+}
+.button-sec .reject {
+    color: red;
+    border: 1px solid red;
+}
+.button-sec .reject:hover {
+    color: white;
+    background: red;
+    border: 1px solid red;
+}
+.button-sec .accept:hover {
+    color: white;
+    background: #1890ff;
+}
+.rejection {
+    position: absolute;
+    right: -32px;
+    top: 87px;
+    z-index: 5;
+
+}
+.triangle-sec-1{
+    margin-left: 135px;
+    margin-bottom: 17px;
+
+}
+.triangle{
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-bottom: 20px solid #1890ff;
+    width:0;
+    height:0
+}
+.rejection-inner {
+    border: 1px solid #1890ff;
+    padding: 20px;
+    border-radius: 10px;
+    background: white;
+}
+input.input-field1 {
+    outline: none;
+    border: none;
+}
+.input-field1 {
+    border: none;
+    padding: 10px;
+    height: 25px;
+    width: 180px;
+}
